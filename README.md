@@ -12,6 +12,3 @@ For reference:
 - [Bootstrap](https://getbootstrap.com/);
 - [NodeJs](https://nodejs.org/);
 - [Rendertron](https://github.com/GoogleChrome/rendertron).
-
-
-###### https://www.netlify.com/blog/2017/09/26/how-to-build-a-serverless-seo-friendly-react-blog/
