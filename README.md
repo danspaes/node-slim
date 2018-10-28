@@ -1,7 +1,7 @@
-# react-slim
-Repository for the Docker image at danspaes/react-slim created at 2018-10-28.
+# react-bootstrap
+Repository for the Docker image at danspaes/react-bootstrap created at 2018-10-28.
 
-It creates a react application react\_js which will be listened on 3000. 
+Node.js container with bootstrapJS and reactJS.
 
 To start the container in detached mode, lauch the command below:  
-> docker run -d --name react danspaes/react-slim 
+> docker run -d --name react danspaes/react-bootstrap 
