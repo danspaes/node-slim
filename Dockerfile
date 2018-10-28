@@ -16,14 +16,6 @@ RUN mkdir -p /usr/src/ && \
     reactstrap
 
 
-RUN 
-WORKDIR rendertron
-RUN npm install
-RUN npm run build
-
-ENV PORT=80
-EXPOSE 80
-
 WORKDIR /usr/src/
 
 ADD ./package.json /usr/src/
