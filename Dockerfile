@@ -1,8 +1,7 @@
 FROM node:10.12.0-alpine
 
 RUN mkdir -p /usr/src/ && \
-    npm install -g nodemon && \
-    npm install -g create-react-app 
+    npm install -g nodemon create-react-app bootstrap reactstrap react react-dom
 
 WORKDIR /usr/src/
 
