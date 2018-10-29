@@ -12,4 +12,4 @@ ENV PATH /usr/src/node_modules/.bin:$PATH
 
 EXPOSE 3000
 
-CMD [ "npm", "start" ]
+CMD ["tail", "-f", "/dev/null"]
